@@ -13,7 +13,7 @@ class CcclConan(ConanFile):
     author = "Bincrafters <bincrafters@gmail.com>"
     description = "Unix cc compiler to Microsoft's cl compiler wrapper"
     topics = ("conan", "msvc", "Visual Studio", "wrapper", "gcc")
-    exports_sources = ["LICENSE.md", ]
+    exports = ["LICENSE.md", ]
     no_copy_source = True
     options = {
         "muffle": [True, False],
