@@ -6,8 +6,8 @@ import os
 
 class CcclConan(ConanFile):
     name = "cccl_installer"
-    version = "1.0"
-    license = "GPL-3"
+    version = "1.1"
+    license = "GPL-3.0-or-later"
     url = "https://www.github.com/bincrafters/conan-cccl"
     homepage = "https://github.com/swig/cccl/"
     author = "Bincrafters <bincrafters@gmail.com>"
